@@ -1,0 +1,8 @@
+:root {
+    --color-white: white;
+    --color-black: black;
+    --color-blue: rgba(0, 91, 193, 0.6);
+    --color-orange: rgb(248, 141, 0);
+    --color-gray: rgb(95, 93, 93);
+    --color-lightblue: rgb(0, 80, 228);
+}

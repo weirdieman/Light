@@ -1,0 +1,93 @@
+.projects {
+    position: relative;
+    margin-bottom: 150px;
+}
+.projects .slick-prev , 
+.projects .slick-next {
+    font-size: 0;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-blue);
+    outline: none;
+    cursor: pointer;
+    padding: 22px 22px;
+}
+.projects button:first-child {
+    position: absolute;
+    top: -120px;
+    right: 66px;
+    background: url(../images/icon2.svg) center no-repeat;
+}
+.projects button:last-child {
+    position: absolute;
+    right: 20px;
+    top: -120px;
+    background: url(../images/icon.svg) center no-repeat;
+}
+.projects__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.projects__header span {
+    position: relative;
+    width: 100px;
+    height: 3px;
+    display: block;
+    background-color: var(--color-blue);
+}
+.projects__header span::before {
+    position: absolute;
+    content: '';
+    background-color: var(--color-blue);
+    width: 50px;
+    height: 3px;
+    right: 0;
+    transform: translateY(10px);
+}
+.projects__title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    color: var(--color-black);
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.slider__item {
+   position: relative; 
+}
+.projects__photo {
+    width: 540px;
+    height: 400px;
+}
+.projects__icon {
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    background-color: var(--color-white);
+    width: 260px;
+    height: 100px;
+    padding: 20px 25px 0;
+}
+.projects__subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+.projects__text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-gray);
+    margin-top: 14px;
+}
+
+

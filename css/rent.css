@@ -1,0 +1,118 @@
+.rent {
+    margin-bottom: 105px;
+}
+.rent__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.rent__header span {
+    position: relative;
+    width: 100px;
+    height: 3px;
+    display: block;
+    background-color: var(--color-blue);
+}
+.rent__header span::before {
+    position: absolute;
+    content: '';
+    background-color: var(--color-blue);
+    width: 50px;
+    height: 3px;
+    right: 0;
+    transform: translateY(10px);
+}
+.rent__title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    color: var(--color-black);
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.rent__text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--color-gray);
+    margin-top: 150px;
+}
+.rent__slider {
+    border: 3px solid var(--color-lightblue);
+    width: 665px;
+    height: 394px;
+    margin-left: 65px;
+    margin-right: 28px;
+}
+.rent__subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: var(--color-black);
+    padding: 42px 0 0 30px;
+}
+.slider {
+    display: flex;
+    position: relative;
+}
+.rent .slick-prev , 
+.rent .slick-next {
+    font-size: 0;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-blue);
+    outline: none;
+    cursor: pointer;
+    padding: 18px 18px;
+}
+.slider button:first-child {
+    position: absolute;
+    top: -39px;
+    right: 58px;
+    background: url(../images/icon2.svg) center no-repeat;
+}
+.slider button:last-child {
+    position: absolute;
+    right: 20px;
+    top: -39px;
+    background: url(../images/icon.svg) center no-repeat;
+}
+.slider__window {
+    outline: none;
+}
+.slider img {
+    width: 255px;
+    height: 250px;
+    margin-top: 45px;
+}
+.rent__texts {
+    margin-top: -300px;
+    margin-left: 245px;
+}
+.rent__info {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--color-black);
+    text-align: center;
+    margin: 45px 0 30px;
+}
+.rent__subtext {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-gray);
+    list-style: disc;
+    margin:0 0 20px 50px;
+}

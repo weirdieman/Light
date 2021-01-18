@@ -1,0 +1,41 @@
+body {
+    position: relative;
+}
+.header {
+    position: absolute;
+    align-items: center;
+    display: flex;
+}
+.header__logo {
+    margin: 15px 555px 15px 40px;
+    text-align: center;
+    display: flex;
+    z-index: 1;
+}
+.header__title {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--color-white);
+    margin-left: 8px;
+}
+.header__links {
+    display: flex;
+}
+.header__links li {
+    margin-right: 26px;
+    z-index: 1;
+}
+.header__link {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-white);
+}
+.header__link:hover {
+    color: var(--color-orange);
+}

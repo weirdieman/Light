@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+}
+.col-6 {
+    width: 50%;
+    outline: none;
+}
+.col-4 {
+    width: 33.3%;
+}
+.col-7 {
+    width: 66.7%;
+}
+.col-3 {
+    width: 25%;
+}

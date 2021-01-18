@@ -1,0 +1,11 @@
+@keyframes block {
+    0% {
+        transform: translateX(100px);
+    }
+    50% {
+        transform: translateX(800px);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
