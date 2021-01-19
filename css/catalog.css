@@ -66,6 +66,9 @@
     text-transform: uppercase;
     color: var(--color-white);
 }
+.catalog__subtitle:hover {
+    color: var(--color-orange);
+}
 .catalog__icon {
     position: relative;
 }
