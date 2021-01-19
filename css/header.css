@@ -5,12 +5,12 @@ body {
     position: absolute;
     align-items: center;
     display: flex;
+    z-index: 2;
 }
 .header__logo {
     margin: 15px 555px 15px 40px;
     text-align: center;
     display: flex;
-    z-index: 1;
 }
 .header__title {
     font-family: 'Titillium Web', sans-serif;
@@ -26,7 +26,6 @@ body {
 }
 .header__links li {
     margin-right: 26px;
-    z-index: 1;
 }
 .header__link {
     font-family: 'Open Sans', sans-serif;

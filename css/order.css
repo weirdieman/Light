@@ -4,6 +4,7 @@
     width: 1350px;
     Height: 700px;
     margin-bottom: 156px;
+    z-index: 1;
 }
 .order::before {
     position: absolute;
@@ -25,6 +26,7 @@
     animation-duration: 7s;
     animation-iteration-count: infinite;
     transform-origin: center;
+    z-index: -1;
 }
 .order__info {
     padding-top: 282px;
